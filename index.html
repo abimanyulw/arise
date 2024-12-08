@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARISE - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <style>
+    /* Reset dan dasar styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header dengan background gradasi */
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #ffffff, #ffffff); /* Gradasi warna */
+      color: black;
+      animation: fadeIn 1.5s ease-out; /* Fade-in effect */
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    header .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8em;
+      font-weight: 700;
+    }
+
+    header .slogan {
+      font-size: 1em;
+      margin-top: 10px;
+      font-weight: 400;
+    }
+
+    /* Fitur-fitur */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsif */
+      gap: 40px;  /* Jarak antar card lebih besar */
+      padding: 50px 20px;
+      animation: fadeIn 2s ease-out;
+      margin-bottom: 10px; /* Jarak antara fitur dan footer */
+    }
+
+    /* Fitur card */
+    .feature {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature h4 {
+      font-size: 1.6em;
+      margin-bottom: 20px; /* Jarak antar judul dan isi */
+      font-weight: 600;
+    }
+
+    .feature p {
+      font-size: 1.1em;
+      color: #777;
+    }
+
+    /* Judul fitur */
+    .feature-category h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #3C3319; /* Warna yang lebih kontras */
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px 0;
+      background-color: #ffffff;
+      color: black;
+      font-size: 1em;
+    }
+    
+    #icon {
+      width: 100%
+      text-align: center;
+      margin: 10px;
+    }
+img {
+  width: 40%;
+}
+
+
+    /* Animasi fadeIn */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+#ikon{
+  filter: grayscale(100%);
+}
+
+    /* Responsif untuk layar kecil */
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr; /* 1 kolom pada layar kecil */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header dengan background gradasi -->
+  <header>
+    <div class="logo">ARISE</div>
+    <div class="slogan">Tahukah kamu? Mengenali karakter diri sendiri merupakan tahap awal terbentuknya self-awareness. Dengan self-awareness yang baik, seseorang dapat mengambil keputusan dan menjalin hubungan dengan orang sekitar dengan baik. ARISE berupaya melakukan interpretasi karakter seseorang ke dalam wujud yang mudah dikenali.</div>
+  </header>
+
+  <!-- Fitur-fitur -->
+  <div class="features">
+    <!-- Pengenalan Diri -->
+    <div class="feature-category">
+      <h3>Kenali Diri</h3>
+            <div class="feature" onclick="window.location.href='laman-uji/hewan.html';">
+         <div id="icon">
+          <img src="dolphin.png" alt="">
+        </div><br>
+        <h4>Hewan</h4>
+        <p>Hewan apa yang paling menggambarkan karaktermu?</p>
+      </div><br>
+      <div class="feature" onclick="window.location.href='laman-uji/hero-ml.html';">
+         <div id="icon">
+          <img src="game.png" alt="">
+        </div><br>
+        <h4>Mobile Legend</h4>
+        <p>Hero Mobile Legend apa yang paling menggambarkan karaktermu?</p>
+      </div><br>
+      <div id="pohon" class="feature" onclick="window.location.href='laman-uji/pohon.html';">
+         <div id="icon">
+          <img src="growing-plant.png" alt="forum.png">
+        </div><br>
+        <h4>Pohon</h4>
+        <p>Pohon apa yang paling menggambarkan karaktermu?</p>
+      </div>
+    </div>
+
+    <!-- Museum Kata -->
+    <div class="feature-category">
+      
+      <h3>Ekspresi Diri</h3>
+      <div class="feature" onclick="window.location.href='museum/pesan';">
+<div id="icon">
+          <img src="chat.png" alt="forum.png">
+        </div><br>
+        <h4>Museum Pesan</h4>
+        <p>Sampaikan sepatah dua patah kata yang dapat dibaca oleh publik.</p>
+      </div><br>
+      <div class="feature" onclick="window.location.href='museum/mimpi';">
+        <div id="icon">
+          <img src="ladder.png" alt="forum.png">
+        </div><br>
+        <h4>Museum Mimpi</h4>
+        <p>Tebangkan mimpimu setinggi angkasa.</p>
+      </div><br>
+      <div class="features" style="left: 0; width: 100%; height: 352px; position: relative;"><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXat64iiQuzjo?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 400px; position: absolute; border: 0; padding: 0px" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;"></iframe></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+ &copy; 2024 Abimanyu.<br>
+        Karya ini aku persembahkan sebagai kado ulang tahun untuk diriku.
+  </footer>
+
+</body>
+</html>
