@@ -1,0 +1,160 @@
+/* Reset default browser styles */
+* {
+    
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5; /* Mengatur jarak antar baris */
+    padding: 20px;
+    font-weight: 300; /* Tipiskan font sedikit */
+    animation: fadeIn 1s ease-in-out; /* Animasi masuk halaman */
+}
+
+/* Intro Section Styling */
+.intro {
+    background: linear-gradient(to right, #344322, #75784F);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow box */
+    animation: fadeIn 1s ease-in-out; /* Animasi masuk */
+}
+
+.intro h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em; /* Menyesuaikan ukuran heading */
+}
+
+.intro p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em; /* Menyesuaikan ukuran font body */
+}
+
+/* Main Content Section Styling */
+.content {
+    margin-top: 30px;
+}
+
+/* Right Column for Text Content */
+.right-column {
+    width: 100%;
+    animation: fadeIn 1.5s ease-in-out; /* Animasi masuk */
+}
+
+/* Card Styling for each section */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow box */
+    margin-top: 10px; /* Menambahkan margin atas untuk jarak antar card */
+    height: auto; /* Menghilangkan tinggi tetap agar card menyesuaikan dengan konten */
+    font-weight: 300; /* Tipiskan font di dalam card */
+    text-align: justify; /* Menyusun teks rata kiri-kanan */
+}
+
+/* Card Titles Styling - Tipiskan lebih tebal */
+.card h2, .card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 15px; /* Menambahkan jarak bawah pada judul */
+    font-weight: 300; /* Menurunkan ketebalan judul untuk membuatnya lebih tipis */
+}
+
+/* Body Text inside the Card */
+.card p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em; /* Ukuran font seragam di semua card */
+    line-height: 1.6; /* Spasi antar baris yang nyaman */
+    margin-bottom: 12px; /* Memberikan jarak antar paragraf */
+}
+
+/* Numbered List Styling (Kelebihan dan Kekurangan) */
+.numbered-list {
+    padding-left: 20px;
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+.numbered-list li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em; /* Ukuran font seragam dengan body text */
+    margin-bottom: 0; /* Menghilangkan jarak antar item list */
+    line-height: 1.5; /* Menjaga jarak antar baris tetap nyaman */
+}
+
+/* Indicator Bar Styling */
+.indicators {
+    margin-top: 20px;
+}
+
+.indicator {
+    margin-bottom: 15px;
+}
+
+.indicator span {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal; /* Menghilangkan bold pada indikator */
+    font-size: 0.95em; /* Menipiskan teks pada indikator */
+    display: inline-block;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.bar {
+    background: linear-gradient(to right, #344322, #75784F); /* Gradasi oranye */
+    height: 12px;
+    border-radius: 5px;
+    margin-left: 0; /* Menyelaraskan bar dengan judul */
+    margin-right: 10px; /* Memperbaiki margin untuk keselarasan */
+}
+
+/* Hubungan dengan Hero Lain sebagai daftar */
+.hero-relations ul {
+    padding-left: 20px;
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+.hero-relations li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin-bottom: 5px; /* Menambahkan jarak antar hero */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Animasi Fade In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#gambar{
+  background-image: url("20241207_222112_0000.png");
+  height: 190px;
+  background-size: cover;
+}
+
+/* General styling for the header */
