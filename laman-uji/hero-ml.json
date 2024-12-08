@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Aku lebih nyaman kalau jadi orang yang memimpin dan ngarahin tim.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Tigreal"}
+    ]
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Kalau ada masalah, aku langsung ambil alih dan coba cari solusi.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Aku nggak takut sama tantangan, justru lebih suka kalau ada yang baru dan seru.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Aku lebih suka mikir dulu sebelum ambil tindakan, supaya hasilnya maksimal.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Aku lebih suka bekerja dengan orang-orang yang bisa diajak berpikir jauh ke depan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Tigreal"}
+    ]
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Aku cenderung fokus banget sama tugas yang ada, dan lebih nyaman kalau bisa bekerja sendiri.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Aku sabar banget, dan biasanya nggak terburu-buru buat ambil keputusan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Aku sangat peduli sama orang lain dan selalu berusaha jadi pendengar yang baik.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Gord"}
+    ]
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Aku lebih memilih untuk menganalisis dan mencari solusi yang rasional.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Aku lebih suka bekerja di belakang layar, mengatur strategi daripada jadi sorotan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Aku senang membantu, meski nggak berharap apa-apa sebagai balasan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Aku suka banget kalau orang di sekitar aku merasa nyaman dan aman.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Aku lebih suka bertindak segera setelah ada peluang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Eudora"}
+    ]
+  },
+{
+    "id": 14,
+    "pertanyaan": "Aku setia banget sama tim dan selalu siap melindungi mereka.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Eudora"}
+    ]
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Aku nggak mudah panik, lebih tenang dan stabil dalam menghadapi tantangan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rafaela"}
+    ]
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Aku lebih suka bekerja dengan data yang terstruktur dan jelas, bukan berdasarkan feeling.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Aku lebih suka menjadi orang yang bisa diandalkan dalam situasi sulit.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Aku lebih suka kalau semuanya terorganisir dan nggak berantakan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Aku nggak suka terburu-buru, lebih suka merencanakan dengan hati-hati.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Aku percaya kalau kasih sayang dan perhatian itu penting dalam hubungan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Gord"}
+    ]
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Aku suka menganalisis situasi sebelum ambil keputusan, untuk memastikan yang terbaik.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Aku nggak suka ada konflik, lebih senang kalau semuanya berjalan damai.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Aku lebih nyaman jika aku bisa menyelesaikan masalah sendiri, tanpa bantuan orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rafaela"}
+    ]
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Aku lebih suka jadi orang yang bisa menjaga dan melindungi orang-orang di sekitar aku.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Aku lebih suka kalau orang-orang percaya sama keputusan yang aku buat.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Aku suka banget ngambil langkah cepat dan nggak takut ambil risiko.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Aku sering merasa lebih nyaman kalau bisa bekerja sendiri, tanpa terlalu banyak mikir.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Eudora"}
+    ]
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Aku sangat peduli sama orang-orang yang aku sayang dan selalu ada buat mereka.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Aku lebih suka ngambil keputusan berdasarkan analisis dan perhitungan, bukan perasaan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Aku lebih suka bekerja dengan orang-orang yang bisa diajak berpikir jauh ke depan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Aku lebih suka kalau ada rencana yang jelas sebelum bertindak.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Aku suka banget nyelesain masalah secara cepat dan efektif, kadang dengan cara yang nggak biasa.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Tigreal"}
+    ]
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Aku lebih senang kalau semuanya berjalan damai dan tanpa konflik.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Aku sangat sabar dan nggak gampang terburu-buru untuk mengambil keputusan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Aku merasa nyaman jika bisa menjadi orang yang diandalkan dalam situasi sulit.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Lancelot"}
+    ]
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Aku sering merasa lebih nyaman saat bisa bekerja sendiri, tanpa terlalu banyak campur tangan dari orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Tigreal"}
+    ]
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Aku lebih suka kalau aku bisa mengatur sendiri jadwal dan rencana kerjaku.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Aku percaya kalau sebuah tim harus memiliki pemimpin yang kuat dan tegas.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rafaela"}
+    ]
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Aku lebih suka jika orang-orang di sekitarku merasa aman dan nyaman.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Angela"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rafaela"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Aku lebih suka memikirkan dampak dari keputusan yang aku ambil sebelum bertindak.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Eudora"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Lancelot"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Angela"}
+    ]
+  }
+]

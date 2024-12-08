@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Aku lebih nyaman kalau jadi orang yang memimpin dan ngarahin tim.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Kalau ada masalah, aku langsung ambil alih dan coba cari solusi.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kelelawar"}
+    ]
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Aku lebih suka mikir dulu sebelum ambil keputusan penting.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Anjing"}
+    ]
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Aku lebih suka nyelesain masalah dengan cara unik dan nggak biasa.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Gajah"}
+    ]
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Aku lebih suka kerja sendiri daripada bareng orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Anjing"}
+    ]
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Aku suka banget kalau dikelilingi orang-orang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Aku lebih suka bertindak berdasarkan insting dan perasaan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Gajah"}
+    ]
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Aku merasa lebih nyaman saat berada di lingkungan yang tenang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Aku suka memberikan dukungan kepada orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+  "id": 10,
+  "pertanyaan": "Aku merasa bangga kalau bisa menyelesaikan pekerjaan yang sulit.",
+  "opsi": [
+    {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+    {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+    {"jawaban": "Netral", "tipe_kepribadian": "Anjing"},
+    {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+    {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+  ]
+},
+  {
+    "id": 11,
+    "pertanyaan": "Aku merasa lebih baik jika semuanya berjalan sesuai rencana.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Aku merasa nyaman saat bekerja dalam tim.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Aku sering merasa cemas jika tidak tahu apa yang akan terjadi selanjutnya.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Aku lebih suka meluangkan waktu untuk berpikir sebelum bertindak.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kucing"}
+    ]
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Aku merasa lebih nyaman ketika semuanya berjalan dengan santai dan tanpa tekanan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Aku lebih suka berada di sekitar orang-orang yang aktif dan energik.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Aku lebih suka menyelesaikan tugas yang rumit dan menantang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Gajah"}
+    ]
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Aku lebih suka berada dalam situasi yang penuh dengan perubahan dan tantangan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Aku merasa lebih produktif ketika bekerja dalam suasana yang tenang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Aku cenderung lebih sabar ketika menghadapi orang yang berbeda pendapat.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Aku merasa lebih nyaman saat mendapatkan instruksi yang jelas.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Aku lebih suka melakukan sesuatu yang berbeda daripada yang sudah biasa dilakukan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Aku merasa lebih baik jika ada struktur yang jelas dalam kegiatan sehari-hari.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kucing"}
+    ]
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Aku merasa nyaman saat berada di lingkungan yang stabil dan tidak berubah-ubah.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Aku lebih suka mendengarkan orang lain sebelum memberikan pendapatku.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Aku lebih memilih untuk bekerja secara mandiri daripada bergantung pada orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Aku lebih suka mengambil risiko daripada bermain aman.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Aku merasa lebih baik jika orang-orang mendengarkan pendapatku.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Aku merasa lebih nyaman saat mengerjakan sesuatu yang sudah aku kuasai.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Aku merasa lebih baik jika ada orang yang bisa menuntun dan memberi arahan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Aku lebih suka berada di tempat yang ramai daripada tempat yang sepi.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Aku merasa lebih tenang saat berada di alam atau ruang terbuka.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Aku lebih suka menghabiskan waktu dengan orang yang sama daripada bertemu orang baru.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Anjing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Aku cenderung lebih mudah beradaptasi dengan perubahan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Aku merasa lebih puas ketika berhasil menyelesaikan tugas yang sulit.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Aku lebih suka mempertahankan rutinitas daripada mencoba hal baru.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelelawar"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Singa"}
+    ]
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Aku merasa lebih nyaman ketika bisa bekerja di bawah pengawasan yang jelas.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Domba"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Aku lebih suka bertindak cepat tanpa terlalu banyak berpikir.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "BurungHantu"}
+    ]
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Aku merasa lebih puas jika bisa membuat keputusan secara mandiri.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kucing"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Serigala"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Domba"}
+    ]
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Aku lebih suka mendalami sesuatu secara mendalam daripada hanya mengetahui sedikit.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "BurungHantu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Gajah"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Singa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Serigala"}
+    ]
+  }
+  ]

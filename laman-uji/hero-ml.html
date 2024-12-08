@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARISE Edisi Hero Mobile Legend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <!-- Menambahkan font Playfair Display -->
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Body Styling */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #fff;
+            color: #231831;
+            line-height: 1.6;
+            padding: 20px;
+            font-weight: 200;  /* Tipiskan font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 92vh;
+            flex-direction: column;
+            font-size: 0.8em;
+        }
+
+        /* Header Styling */
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 2em;
+            font-family: 'Playfair Display', serif;  /* Menggunakan font Playfair Display */
+            font-weight: 700;
+            margin: 0;  /* Menghilangkan margin */
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Menambahkan garis samar di bawah header */
+        }
+
+        /* Main Content Section Styling */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        #question-container {
+            margin-bottom: 30px;
+        }
+
+        /* Font dan gaya untuk soal */
+        .question {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.25em;
+            font-weight: 300;  /* Tipiskan font */
+            margin-bottom: 20px;
+            color: #231831;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        /* Styling untuk Opsi */
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .options button {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300; /* Tipiskan font */
+            background-color: #fff;
+            color: #231831;
+            font-size: 1.125em;
+            padding: 14px;
+            width: 80%;
+            max-width: 320px;
+            margin: 10px 0;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .options button:hover {
+            transform: scale(1.05);
+            background-color: linear-gradient(to right, #231831, #6F576C);
+            color: white;
+        }
+
+        .options button.selected {
+            background: linear-gradient(to right, #FE9000, #FEB000);
+            color: white;
+            border-color:FE9000;
+        }
+
+        .options button:disabled {
+            background-color: #ddd;
+            color: #888;
+            cursor: not-allowed;
+        }
+
+        /* Progress bar */
+        .progress-container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            height: 20px;
+            width: 0;
+            background: linear-gradient(to right, #FE9000, #FEB000);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        /* Navigation buttons */
+        .navigation {
+            margin-top: 30px;
+        }
+
+        .navigation button {
+            font-family: 'Lato', sans-serif;
+            background: linear-gradient(to right, #FE9000, #FEB000);
+            color: white;
+            font-size: 1.125em;
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation button:hover {
+            background: linear-gradient(to right, #FEB000, #FE9000);
+        }
+
+        .navigation button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'Lato', sans-serif;
+            font-size: 1em;
+            color: #231831;
+            font-weight: 200;  /* Tipiskan font */
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        /* Animasi Fade In */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            .question {
+                font-size: 1.1em; /* Sesuaikan font pada perangkat mobile */
+            }
+
+            .options button {
+                font-size: 1.05em; /* Menyesuaikan ukuran font opsi pada perangkat mobile */
+            }
+
+            .navigation button {
+                font-size: 1.05em; /* Menyesuaikan ukuran font tombol pada perangkat mobile */
+            }
+        }
+
+        #next-btn, #prev-btn {
+          font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        ARISE
+    </header>
+<br>
+    <div class="container">
+        <div id="question-container">
+            <div class="question" id="question">Pertanyaan akan muncul di sini</div>
+            <div class="options" id="options">
+                <!-- Opsi jawaban akan dimuat di sini -->
+            </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <div class="navigation">
+            <button id="prev-btn" onclick="changeQuestion(-1)" disabled>Previous</button>
+            <button id="next-btn" onclick="changeQuestion(1)">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let currentQuestionIndex = 0;
+        let answers = [];
+        let results = {
+            Angela: 0,
+            Eudora: 0,
+            Gord: 0,
+            Lancelot: 0,
+            Leomord: 0,
+            Miya: 0,
+            Rafaela: 0,
+            Tigreal: 0
+        };
+
+        // Memuat data JSON eksternal
+        fetch('hero-ml.json')
+            .then(response => response.json())
+            .then(data => {
+                window.questions = data;
+                loadQuestion();
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+
+        // Fungsi untuk menampilkan pertanyaan dan opsi
+        function loadQuestion() {
+            const question = questions[currentQuestionIndex];
+            document.getElementById("question").textContent = question.pertanyaan;
+            const optionsContainer = document.getElementById("options");
+            optionsContainer.innerHTML = '';
+
+            question.opsi.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.textContent = option.jawaban;
+                button.onclick = function () {
+                    selectAnswer(index, option.tipe_kepribadian);
+                };
+
+                // Menambahkan warna latar belakang jika sudah dijawab
+                if (answers[currentQuestionIndex] === index) {
+                    button.classList.add('selected');
+                }
+
+                optionsContainer.appendChild(button);
+            });
+
+            // Menyesuaikan tombol Previous dan Next
+            document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
+            document.getElementById("next-btn").textContent = currentQuestionIndex === questions.length - 1 ? "Selesai" : "Next";
+
+            updateProgressBar();
+        }
+
+        // Fungsi untuk memilih jawaban
+        function selectAnswer(optionIndex, personality) {
+            answers[currentQuestionIndex] = optionIndex;
+            // Menambah skor untuk tipe kepribadian
+            Object.keys(results).forEach(type => {
+                results[type] += personality === type ? 1 : 0;
+            });
+            loadQuestion();
+        }
+
+        // Fungsi untuk berpindah ke soal selanjutnya atau sebelumnya
+        function changeQuestion(direction) {
+            if (currentQuestionIndex === questions.length - 1) {
+                // Halaman selesai, arahkan ke hasil
+                const highestPersonality = Object.keys(results).reduce((a, b) => results[a] > results[b] ? a : b);
+                window.location.href = `../hero-ml/${highestPersonality.toLowerCase()}`;
+                return;
+            }
+
+            currentQuestionIndex += direction;
+            loadQuestion();
+        }
+
+        // Fungsi untuk mengupdate progress bar
+        function updateProgressBar() {
+            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+            document.getElementById("progress-bar").style.width = progress + '%';
+        }
+    </script>
+
+</body>
+</html>

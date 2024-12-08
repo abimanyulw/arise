@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Aku selalu punya energi positif yang bisa bikin suasana jadi lebih hidup.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood" }
+    ]
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Aku suka banget ngobrol sama orang dan gampang beradaptasi di berbagai situasi.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood" }
+    ]
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Aku lebih suka menghadapi masalah dengan sabar dan hati-hati daripada terburu-buru.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Jati" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord" }
+    ]
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Aku lebih suka mikir matang sebelum mengambil keputusan besar.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Jati" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Jati" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kiara" }
+    ]
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Aku lebih memilih jalan yang stabil dan bukan yang berisiko tinggi.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Jati" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Jati" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord" }
+    ]
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Aku bisa tetap tenang dan fokus meskipun ada masalah yang datang tiba-tiba.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Sandalwood" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kiara" }
+    ]
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Aku lebih suka bekerja dengan tim daripada sendirian.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood" }
+    ]
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Aku suka banget bikin orang lain tertawa dan merasa nyaman di sekitar aku.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Rambutan" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Bambu" }
+    ]
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Aku nggak takut menghadapi masalah, bahkan kalau itu sulit sekalipun.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Kiara" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Leomord" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya" }
+    ]
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Aku lebih suka jalanin hidup dengan cara yang aku tentuin sendiri.",
+    "opsi": [
+      { "jawaban": "Sangat Setuju", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Setuju", "tipe_kepribadian": "Kelapa" },
+      { "jawaban": "Netral", "tipe_kepribadian": "Miya" },
+      { "jawaban": "Tidak Setuju", "tipe_kepribadian": "Mangga" },
+      { "jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rambutan" }
+    ]
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Aku lebih suka bergaul dengan orang baru dan memperluas jaringan sosial.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Aku lebih suka menghadapi masalah dengan logika dan analisis yang matang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rambutan"}
+    ]
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Aku suka berpikir sebelum mengambil keputusan penting dalam hidup.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Mangga"}
+    ]
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Aku nggak takut untuk menghadapi situasi sulit, malah suka tantangan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Aku lebih suka menjaga ketenangan dalam diri daripada terjebak dalam keramaian.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rambutan"}
+    ]
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Aku tipe orang yang bisa bekerja dengan baik dalam situasi yang penuh tekanan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Aku suka jadi orang yang menyelesaikan masalah dengan cepat, tanpa berlama-lama.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Aku senang belajar hal baru dan mencoba berbagai pengalaman yang berbeda.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Aku lebih suka bekerja secara mandiri tanpa tergantung pada orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rambutan"}
+    ]
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Aku percaya bahwa setiap masalah ada solusinya, dan aku selalu mencari jalan keluar.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Miya"}
+    ]
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Aku merasa nyaman kalau berada di sekitar orang-orang yang penuh semangat.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Aku lebih memilih pendekatan yang sistematis dan terstruktur dalam menyelesaikan pekerjaan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Mangga"}
+    ]
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Aku percaya bahwa kebahagiaan datang dari ketenangan hati dan pikiran.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Mangga"}
+    ]
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Aku lebih suka menghabiskan waktu di tempat yang sepi dan tenang.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Mangga"}
+    ]
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Aku lebih suka memimpin dan mengarahkan tim daripada menjadi pengikut.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Aku bisa bertahan dalam situasi sulit dan tetap bersemangat.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Leomord"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Aku selalu berusaha untuk tetap positif dan optimis dalam menghadapi masalah.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Aku suka mencari solusi yang efektif dan efisien untuk setiap masalah.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Bambu"}
+    ]
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Aku merasa lebih baik jika aku bisa mandiri dan tidak bergantung pada orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Aku senang berbagi ide dan pengalaman dengan orang lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Aku merasa lebih baik saat bisa bekerja di tempat yang tenang dan tidak ramai.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Rambutan"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Kiara"}
+    ]
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Aku merasa bahagia ketika aku bisa membantu orang lain menyelesaikan masalah mereka.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Miya"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Tigreal"}
+    ]
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Aku lebih suka menjalani hidup dengan penuh spontanitas dan kebebasan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Aku lebih suka bekerja dengan tim yang bisa saling mendukung satu sama lain.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Tigreal"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Aku lebih suka memikirkan semua kemungkinan sebelum membuat keputusan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Rambutan"}
+    ]
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Aku merasa lebih nyaman ketika aku bisa fokus pada satu tugas tanpa gangguan.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Aku merasa bahwa aku bisa mengatasi banyak hal dengan pendekatan yang tenang dan sabar.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Sandalwood"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Leomord"}
+    ]
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Aku lebih suka berada dalam lingkungan yang mendukung kreativitas dan inovasi.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Kelapa"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Aku lebih suka bekerja di lingkungan yang serba terorganisir dan teratur.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Asam"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Jati"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Aku merasa lebih bahagia saat bisa berbagi dengan orang lain dan bekerja sama menuju tujuan yang sama.",
+    "opsi": [
+      {"jawaban": "Sangat Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Setuju", "tipe_kepribadian": "Kiara"},
+      {"jawaban": "Netral", "tipe_kepribadian": "Mangga"},
+      {"jawaban": "Tidak Setuju", "tipe_kepribadian": "Bambu"},
+      {"jawaban": "Sangat Tidak Setuju", "tipe_kepribadian": "Sandalwood"}
+    ]
+  }
+]
