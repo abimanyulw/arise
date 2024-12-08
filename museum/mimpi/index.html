@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museum Mimpi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <style>
+    /* Style untuk halaman */
+    body {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f9f9f9;
+      overflow: hidden;
+      box-sizing: border-box; /* Memastikan padding dan border dihitung dalam ukuran */
+    }
+
+    header {
+      background: linear-gradient(to right, #ffffff, #ffffff); /* Gradien baru */
+      color: black;
+      text-align: center;
+      padding: 0.5em 1em;
+      font-size: 1.5em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      flex-shrink: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Menambahkan garis samar di bawah header */
+    }
+
+    #chat {
+      flex: 1;
+      padding: 1em;
+      background: #f0f0f0;
+      overflow-y: auto;
+      margin-bottom: 1.5em;
+      box-sizing: border-box;
+      max-height: calc(100vh - 300px);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* Balon dengan warna gradien sesuai header */
+    .balloon {
+      background: linear-gradient(to right, #FE5F87, #FF9C8F); /* Gradien baru untuk balon */
+      border-radius: 50%;
+      padding: 12px;
+      width: 100px;
+      height: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow lebih nyata */
+      position: absolute;
+      animation: flyUp 10s linear infinite; /* Animasi bergerak dari bawah ke atas */
+    }
+
+    .balloon strong {
+      display: block;
+      font-size: 1em;
+      color: white;
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* Tali balon dengan animasi bergelombang */
+    .balloon .string {
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      width: 2px;
+      height: 120px;
+      background: linear-gradient(to top, #3b3b3b, #a8a8a8); /* Gradien warna untuk tali */
+      transform: translateX(-50%);
+      animation: waveString 2s ease-in-out infinite; /* Animasi bergelombang */
+    }
+
+    /* Animasi tali bergelombang */
+    @keyframes waveString {
+      0% {
+        transform: translateX(-50%) rotate(0deg);
+      }
+      50% {
+        transform: translateX(-50%) rotate(5deg);
+      }
+      100% {
+        transform: translateX(-50%) rotate(-5deg);
+      }
+    }
+
+    /* Animasi balon bergerak dari bawah ke atas tanpa berhenti */
+    @keyframes flyUp {
+      0% {
+        top: 100%; /* Mulai di luar layar bagian bawah */
+        opacity: 1;
+        transform: translateX(0);
+      }
+      100% {
+        top: -150px; /* Berhenti di luar layar bagian atas (balon bergerak keluar layar atas) */
+        opacity: 1;
+        transform: translateX(200px); /* Bisa ditambah dengan pergerakan horizontal */
+      }
+    }
+
+    /* Animasi fade-in hanya untuk balon baru */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background: #fff;
+      border-top: 1px solid #ddd;
+      box-sizing: border-box;
+      flex-shrink: 0;
+    }
+
+    form textarea {
+      margin-bottom: 1em;
+      padding: 0.75em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.95em;
+      font-weight: 300;
+      box-sizing: border-box;
+      resize: none;
+      min-height: 80px;
+    }
+
+    form button {
+      background: linear-gradient(to right, #FE5F87, #FF9C8F); /* Gradien baru untuk tombol */
+      color: white;
+      border: none;
+      padding: 0.75em 1.5em;
+      border-radius: 5px;
+      cursor: pointer;
+      align-self: flex-start;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      font-weight: 300;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background: linear-gradient(to right, #514B2A, #3C3319); /* Gradien terbalik saat hover */
+    }
+
+  </style>
+</head>
+<body>
+  <header>Museum Mimpi</header>
+  <div id="chat">
+    <!-- Pesan akan dimuat di sini -->
+  </div>
+  <form id="messageForm">
+    <textarea id="messageInput" rows="3" placeholder="Tulis Mimpimu di Sini" required></textarea>
+    <button type="submit">Kirim Mimpi</button>
+  </form>
+
+  <script type="module">
+    // Import Firebase SDKs
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getDatabase, ref, set, push, onChildAdded } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js";
+
+    // Firebase Configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCpe4N09OKb3eI3s5cLzPS9Cczbg9F-XQc",
+      authDomain: "arise-63f67.firebaseapp.com",
+      databaseURL: "https://arise-63f67-default-rtdb.firebaseio.com",
+      projectId: "arise-63f67",
+      storageBucket: "arise-63f67.firebasestorage.app",
+      messagingSenderId: "847026490456",
+      appId: "1:847026490456:web:db415425da44af80918e2d",
+      measurementId: "G-KZ51MRKD3L"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // DOM Elements
+    const chatDiv = document.getElementById('chat');
+    const form = document.getElementById('messageForm');
+    const messageInput = document.getElementById('messageInput');
+
+    // Path untuk pesan
+    const messagesRef = ref(db, 'MuseumMimpi');
+
+    // Mengambil pesan terbaru
+    onChildAdded(messagesRef, (data) => {
+      const message = data.val();
+      const balloon = document.createElement('div');
+      balloon.className = 'balloon';
+      balloon.innerHTML = `<strong>${message.message}</strong>`;
+      
+      // Balon diberi posisi random dan delay animasi
+      const randomX = Math.random() * 100; // Random horizontal position
+      const randomDelay = Math.random() * 5; // Random delay for animation
+      const randomSpeed = Math.random() * (15 - 7) + 7; // Random speed for animation
+      balloon.style.left = `${randomX}%`;
+      balloon.style.animationDelay = `${randomDelay}s`;
+      balloon.style.animationDuration = `${randomSpeed}s`;
+
+      // Jika pesan baru, tambahkan efek fade-in
+      balloon.style.animation = `fadeIn 1s ease-out forwards, flyUp ${randomSpeed}s linear infinite`;
+      
+      // Membuat tali balon
+      const string = document.createElement('div');
+      string.className = 'string';
+      balloon.appendChild(string);
+
+      chatDiv.prepend(balloon); // Menambahkan balon pesan baru
+    });
+
+    // Kirim pesan baru ke Realtime Database
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const message = messageInput.value.trim();
+
+      if (message) {
+        // Menggunakan push() untuk membuat ID unik otomatis
+        const newMessageRef = push(messagesRef);
+        try {
+          await set(newMessageRef, {
+            message,
+            timestamp: new Date().toISOString()
+          });
+
+          // Clear input fields setelah mengirim pesan
+          messageInput.value = '';
+        } catch (error) {
+          console.error("Error sending message: ", error);
+        }
+      } else {
+        alert("Harap isi mimpi kamu sebelum mengirim!");
+      }
+    });
+  </script>
+</body>
+</html>
