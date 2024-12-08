@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museum Pesan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <style>
+    /* Style untuk halaman */
+    body {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f9f9f9;
+      overflow: hidden;
+      animation: fadeInBody 1.5s ease-in-out;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffffff, #ffffff);
+      color: black;
+      text-align: center;
+      padding: 0.5em 1em;
+      font-size: 1.5em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      flex-shrink: 0;
+      animation: fadeIn 1s ease-in-out;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Menambahkan garis samar di bawah header */
+    }
+
+    #chat {
+      flex: 1;
+      padding: 1em;
+      background: #f0f0f0;
+      overflow-y: auto;
+      margin-bottom: 1.5em;
+      box-sizing: border-box;
+      max-height: calc(100vh - 200px);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      animation: fadeInChat 1.5s ease-in-out;
+    }
+
+    .bubble {
+      background: #fff;
+      border-radius: 10px;
+      padding: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Tipis shadow */
+      width: fit-content;
+      max-width: 80%;
+      word-wrap: break-word;
+      margin: 0;
+      animation: fadeInBubble 1s ease-in-out;
+    }
+
+    .bubble strong {
+      display: block;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background: #fff;
+      border-top: 1px solid #ddd;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      animation: fadeInForm 1.5s ease-in-out;
+    }
+
+    form input, form textarea {
+      margin-bottom: 1em;
+      padding: 0.75em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.95em;
+      font-weight: 300;
+      box-sizing: border-box;
+    }
+
+    form textarea {
+      resize: none;
+      min-height: 80px;
+    }
+
+    form button {
+      background: linear-gradient(to right, #BF4CFE, #FFBFF7);
+      color: white;
+      border: none;
+      padding: 0.75em 1.5em;
+      border-radius: 5px;
+      cursor: pointer;
+      align-self: flex-start;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      font-weight: 300;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+      animation: fadeInButton 1.5s ease-in-out;
+    }
+
+    form button:hover {
+      background: linear-gradient(to right, #FFBFF7, #BF4CFE);
+    }
+
+    @keyframes fadeInBody {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInChat {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInBubble {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInForm {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInButton {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    #chat {
+      overflow-y: auto;
+    }
+
+  </style>
+</head>
+<body>
+  <header>Museum Pesan</header>
+  <div id="chat">
+    <!-- Pesan akan dimuat di sini -->
+  </div>
+  <form id="messageForm">
+    <input type="text" id="toInput" placeholder="Untuk:" required>
+    <textarea id="messageInput" rows="3" placeholder="Isi Pesan:" required></textarea>
+    <button type="submit">Kirim Pesan</button>
+  </form>
+
+  <script type="module">
+    // Import Firebase SDKs
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getDatabase, ref, set, onChildAdded, push } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js";
+
+    // Firebase Configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCpe4N09OKb3eI3s5cLzPS9Cczbg9F-XQc",
+      authDomain: "arise-63f67.firebaseapp.com",
+      databaseURL: "https://arise-63f67-default-rtdb.firebaseio.com",
+      projectId: "arise-63f67",
+      storageBucket: "arise-63f67.firebasestorage.app",
+      messagingSenderId: "847026490456",
+      appId: "1:847026490456:web:db415425da44af80918e2d",
+      measurementId: "G-KZ51MRKD3L"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // DOM Elements
+    const chatDiv = document.getElementById('chat');
+    const form = document.getElementById('messageForm');
+    const toInput = document.getElementById('toInput');
+    const messageInput = document.getElementById('messageInput');
+
+    // Path untuk pesan
+    const messagesRef = ref(db, 'MuseumPesan');
+
+    // Mengambil pesan terbaru
+    onChildAdded(messagesRef, (data) => {
+      const message = data.val();
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      bubble.innerHTML = `<strong>Untuk: ${message.to}</strong>${message.message}`;
+      chatDiv.prepend(bubble); // Menambahkan pesan di bagian atas (terbaru)
+    });
+
+    // Kirim pesan baru ke Realtime Database
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const to = toInput.value.trim();
+      const message = messageInput.value.trim();
+
+      if (to && message) {
+        // Menggunakan push() untuk membuat ID unik otomatis
+        const newMessageRef = push(messagesRef);
+        try {
+          await set(newMessageRef, {
+            to,
+            message,
+            timestamp: new Date().toISOString()
+          });
+
+          // Clear input fields setelah mengirim pesan
+          toInput.value = '';
+          messageInput.value = '';
+        } catch (error) {
+          console.error("Error sending message: ", error);
+        }
+      } else {
+        alert("Harap isi semua kolom sebelum mengirim!");
+      }
+    });
+  </script>
+</body>
+</html>
